@@ -9,4 +9,5 @@
   "nimble_parsec": {:hex, :nimble_parsec, "1.1.0", "3a6fca1550363552e54c216debb6a9e95bd8d32348938e13de5eda962c0d7f89", [:mix], [], "hexpm", "08eb32d66b706e913ff748f11694b17981c0b04a33ef470e33e11b3d3ac8f54b"},
   "telemetry": {:hex, :telemetry, "0.4.3", "a06428a514bdbc63293cd9a6263aad00ddeb66f608163bdec7c8995784080818", [:rebar3], [], "hexpm", "eb72b8365ffda5bed68a620d1da88525e326cb82a75ee61354fc24b844768041"},
   "vega_lite": {:hex, :vega_lite, "0.1.0", "e55d0479f7088f817ad3ae087eb39195446a0df7f4eaa63078565b5a3a5fde24", [:mix], [], "hexpm", "4512f6841351b5b999c317dc1e47986422c873e64588404332efbbeda57f0573"},
+  "vis_network": {:git, "https://github.com/chamot1111/vis_network.git", "d30c54b271174d320c3f7f61c0e0d8c3ceeada1c", []},
 }

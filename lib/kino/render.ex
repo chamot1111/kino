@@ -91,3 +91,10 @@ defimpl Kino.Render, for: VegaLite do
     Kino.Output.vega_lite_static(spec)
   end
 end
+
+defimpl Kino.Render, for: VisNetwork do
+  def to_livebook(vl) do
+    spec = VisNetwork.to_spec(vl)
+    Kino.Output.vis_network(spec)
+  end
+end

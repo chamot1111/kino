@@ -175,6 +175,14 @@ defmodule Kino.Output do
   end
 
   @doc """
+  See `t:vega_lite_static/0`.
+  """
+  @spec vis_network(vis_network_spec :: map()) :: t()
+  def vis_network(spec) when is_map(spec) do
+    {:vis_network, spec}
+  end
+
+  @doc """
   See `t:table_dynamic/0`.
   """
   @spec table_dynamic(pid()) :: t()
